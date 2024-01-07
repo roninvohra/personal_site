@@ -52,33 +52,30 @@
         }
 
         h2, strong {
-            color: #333;
+            color: #3498db; /* Keep the same color for Education and Experience text */
+        }
+
+        .education-item strong,
+        .experience-item strong {
+            color: #1a5276; /* Different color for the names of educations and experiences */
         }
 
         a {
             color: #3498db;
         }
-        .experience-item p {
-            margin: 5px 0;
-        }
 
-        .experience-dates {
-            text-align: center;
-        }
-
-        .experience-dates sub {
-            font-size: 80%;
-            vertical-align: sub;
-        }
-
+        .experience-item p,
         .education-item p {
             margin: 5px 0;
         }
 
+        .experience-dates,
         .education-dates {
             text-align: center;
+            margin-bottom: 10px; /* Add some space between dates and content */
         }
 
+        .experience-dates sub,
         .education-dates sub {
             font-size: 80%;
             vertical-align: sub;
@@ -116,7 +113,7 @@
         <hr>
 
         <div class="education">
-            <h2>Education:</h2>
+            <h2>Education</h2>
             <div class="education-item">
                 <div class="education-dates">
                     <strong>Bachelor of Science in Computer Science @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
@@ -128,7 +125,7 @@
         <hr>
 
         <div class="experiences">
-            <h2>Experiences:</h2>
+            <h2>Experiences</h2>
             <div class="experience-item">
                 <div class="experience-dates">
                     <strong>Machine Learning Researcher @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
