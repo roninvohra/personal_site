@@ -58,6 +58,37 @@
         a {
             color: #3498db;
         }
+        .experience-item p {
+            margin: 5px 0;
+        }
+
+        .experience-dates {
+            text-align: center;
+        }
+
+        .experience-dates sub {
+            font-size: 80%;
+            vertical-align: sub;
+        }
+
+        .education-item p {
+            margin: 5px 0;
+        }
+
+        .education-dates {
+            text-align: center;
+        }
+
+        .education-dates sub {
+            font-size: 80%;
+            vertical-align: sub;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
     </style>
 </head>
 <body>
@@ -73,33 +104,53 @@
         <div class="social-links">
             <a href="https://www.github.com/roninvohra" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/roninvohra" target="_blank">Linkedin</a>
-            <a href="Ronin_Vohra_Resume.pdf" target="_blank">Resume</a>
+            <a href="Ronin_Vohra_Resume.pdf " target="_blank">Resume</a>
         </div>
+
+        <hr>
 
         <div class="about-me">
             I'm Ronin, a Machine Learning researcher and student at the University Of California, Irvine.
         </div>
         
+        <hr>
+
         <div class="education">
             <h2>Education:</h2>
             <div class="education-item">
-                <strong>Bachelor of Science in Computer Science @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
-                <p>Expected Graduation: June 2025</p>
+                <div class="education-dates">
+                    <strong>Bachelor of Science in Computer Science @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
+                    <br>
+                    <sub>Expected Graduation: June 2025</sub> <!-- Add expected graduation date here -->
+                </div>
             </div>
         </div>
+        <hr>
 
         <div class="experiences">
             <h2>Experiences:</h2>
             <div class="experience-item">
-                <strong>Machine Learning Researcher @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
-                <p>Applying ML and AI technologies for smoking cessation under Prof. Pechman and PhD candidate Salar Hashemitaheri                </p>
+                <div class="experience-dates">
+                    <strong>Machine Learning Researcher @ <a href="https://www.uci.edu" target="_blank">UC Irvine</a></strong>
+                    <br>
+                    <sub>January 2024 - Present</sub> <!-- Add start and end date here -->
+                </div>
+                <p>Applying ML and AI technologies for smoking cessation under Prof. Pechman and PhD candidate Salar Hashemitaheri</p>
             </div>
             <div class="experience-item">
-                <strong>Software Engineer Intern @ <a href="https://www.advantest.com" target="_blank">Advantest</a></strong>
+                <div class="experience-dates">
+                    <strong>Software Engineer Intern @ <a href="https://www.advantest.com" target="_blank">Advantest</a></strong>
+                    <br>
+                    <sub>September 2023 - January 2024</sub> <!-- Add start and end date here -->
+                </div>
                 <p>Full-stack development using MongoDB, C#, .NET, Blazor, and Azure Functions</p>
             </div>
             <div class="experience-item">
-                <strong>Software Engineer Intern @ <a href="https://www.codercrunch.com" target="_blank">CoderCrunch</a></strong>
+                <div class="experience-dates">
+                    <strong>Software Engineer Intern @ <a href="https://www.codercrunch.com" target="_blank">CoderCrunch</a></strong>
+                    <br>
+                    <sub>May 2023 - August 2023</sub> <!-- Add start date and indicate ongoing -->
+                </div>
                 <p>Full-stack development using JavaScript, HTML, PHP</p>
             </div>
         </div>
